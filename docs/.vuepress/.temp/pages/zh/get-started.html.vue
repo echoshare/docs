@@ -4,6 +4,14 @@
 </p>
 <p>Echoshare 是一款开箱即用且支持高度自定义配置的在线媒体共享应用。</p>
 <p>基于 WebRTC 技术，Echoshare 提供高效、低延迟的在线屏幕共享功能，可同时传输屏幕画面、摄像头视频流、麦克风音频流以及系统音频，全面满足多样化的远程协作需求。</p>
+<h2 id="使用须知" tabindex="-1"><a class="header-anchor" href="#使用须知"><span>使用须知</span></a></h2>
+<ol>
+<li>为了确保 EchoShare 的正常运行，请确认您的浏览器支持 WebRTC 技术。首次使用时，系统将请求您授予摄像头和麦克风权限。若您拒绝授权，可能导致功能受限。您可以在浏览器的网页权限设置中查看或修改这些权限。</li>
+</ol>
+<p><img src="https://i.postimg.cc/5tjjsgYN/image.png" alt="网页权限"></p>
+<ol start="2">
+<li>由于移动端浏览器限制，使用 EchoShare 时，您在手机或平板电脑上仅能共享摄像头和麦克风，屏幕共享功能暂不可用。但接收媒体不受影响。因此，您可以利用 EchoShare 将电脑端的音频传输至移动设备播放，即使电脑本身没有音频输出设备。</li>
+</ol>
 <h2 id="功能特点" tabindex="-1"><a class="header-anchor" href="#功能特点"><span>功能特点</span></a></h2>
 <h3 id="核心功能" tabindex="-1"><a class="header-anchor" href="#核心功能"><span>核心功能</span></a></h3>
 <ul>

@@ -8,6 +8,14 @@ Echoshare is an out-of-the-box and highly customizable configuration-enabled onl
 
 Based on WebRTC technology, Echoshare provides efficient, low-latency online screen sharing that simultaneously transmits screen shots, camera video streams, microphone audio streams, and system audio to meet diverse remote collaboration needs.
 
+## Usage Instructions
+
+1. To ensure EchoShare functions correctly, please verify that your browser supports WebRTC technology. Upon initial use, the system will request permission to access your camera and microphone. Denying these permissions may result in limited functionality. You can review or modify these permissions in your browser's website settings.
+
+![web permissions](https://i.postimg.cc/5tjjsgYN/image.png)
+
+2. Due to mobile browser limitations, when using EchoShare on a mobile phone or tablet, you can only share your camera and microphone; screen sharing is not currently available. However, media reception is unaffected. Therefore, you can use EchoShare to transmit audio from a computer to a mobile device for playback, even if the computer itself lacks audio output capabilities.
+
 ## Functional features
 
 ### Core functionality

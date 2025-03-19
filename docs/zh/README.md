@@ -4,7 +4,7 @@ title: 首页
 heroImage: https://i.postimg.cc/nLP9DHWn/just-logo.png
 actions:
   - text: 快速上手
-    link: /get-started
+    link: /zh/get-started
     type: primary
 
   - text: 在线使用
