@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[[\"link\",{\"rel\":\"stylesheet\",\"href\":\"/styles/index.css\"}]],\"locales\":{\"/\":{\"lang\":\"en-US\",\"title\":\"EchoShare\",\"description\":\"Echoshare is an out-of-the-box, highly customizable online media sharing application\"},\"/zh/\":{\"lang\":\"zh-CN\",\"title\":\"EchoShare\",\"description\":\"开箱即用的在线媒体共享应用\"}}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[[\"link\",{\"rel\":\"stylesheet\",\"href\":\"/styles/index.css\"}]],\"locales\":{\"/\":{\"lang\":\"English\",\"title\":\"EchoShare\",\"description\":\"Echoshare is an out-of-the-box, highly customizable online media sharing application\"},\"/zh/\":{\"lang\":\"简体中文\",\"title\":\"EchoShare\",\"description\":\"开箱即用的在线媒体共享应用\"}}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

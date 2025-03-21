@@ -7,7 +7,7 @@ actions:
     link: /get-started
     type: primary
 
-  - text: Online App
+  - text: Try it Online
     link: https://echoshare.site
     type: secondary
 

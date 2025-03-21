@@ -7,7 +7,7 @@ actions:
     link: /zh/get-started
     type: primary
 
-  - text: 在线使用
+  - text: 在线体验
     link: https://echoshare.site
     type: secondary
 

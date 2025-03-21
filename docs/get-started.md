@@ -28,6 +28,7 @@ Based on WebRTC technology, Echoshare provides efficient, low-latency online scr
 ### ✨ Enhancements
 
 - ⏳ **Local History**: easily review shared records for convenience.
+- 💓 **Heartbeat detection**: real-time detection of connection status.
 - 🔗 **Customize webhook**: Flexible integration with other systems for automated workflows.
 - 🔄 **Automatic pull after interruption**: automatic recovery even when the network is interrupted, ensuring continuity of sharing.
 - 📱 **Support PWA**: Use it like a native app for a smoother experience.
@@ -133,7 +134,10 @@ echoshare The parameters carried in this request:
 {
   "hook": "on-get",
   "action": "receive",
-  "timestamp": "{current-timestamp}"
+  "timestamp": "{current-timestamp}",
+  "custom": {
+    "your-custom-data": "{your-custom-data}"
+  }
 }
 ```
 

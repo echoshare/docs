@@ -23,6 +23,7 @@
 <h3 id="✨-enhancements" tabindex="-1"><a class="header-anchor" href="#✨-enhancements"><span>✨ Enhancements</span></a></h3>
 <ul>
 <li>⏳ <strong>Local History</strong>: easily review shared records for convenience.</li>
+<li>💓 <strong>Heartbeat detection</strong>: real-time detection of connection status.</li>
 <li>🔗 <strong>Customize webhook</strong>: Flexible integration with other systems for automated workflows.</li>
 <li>🔄 <strong>Automatic pull after interruption</strong>: automatic recovery even when the network is interrupted, ensuring continuity of sharing.</li>
 <li>📱 <strong>Support PWA</strong>: Use it like a native app for a smoother experience.</li>
@@ -87,10 +88,13 @@
 <div class="language-json line-numbers-mode" data-highlighter="prismjs" data-ext="json"><pre v-pre><code><span class="line"><span class="token punctuation">{</span></span>
 <span class="line">  <span class="token property">"hook"</span><span class="token operator">:</span> <span class="token string">"on-get"</span><span class="token punctuation">,</span></span>
 <span class="line">  <span class="token property">"action"</span><span class="token operator">:</span> <span class="token string">"receive"</span><span class="token punctuation">,</span></span>
-<span class="line">  <span class="token property">"timestamp"</span><span class="token operator">:</span> <span class="token string">"{current-timestamp}"</span></span>
+<span class="line">  <span class="token property">"timestamp"</span><span class="token operator">:</span> <span class="token string">"{current-timestamp}"</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token property">"custom"</span><span class="token operator">:</span> <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token property">"your-custom-data"</span><span class="token operator">:</span> <span class="token string">"{your-custom-data}"</span></span>
+<span class="line">  <span class="token punctuation">}</span></span>
 <span class="line"><span class="token punctuation">}</span></span>
 <span class="line"></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="push-uid-webhook" tabindex="-1"><a class="header-anchor" href="#push-uid-webhook"><span>push UID webhook</span></a></h3>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="push-uid-webhook" tabindex="-1"><a class="header-anchor" href="#push-uid-webhook"><span>push UID webhook</span></a></h3>
 <p>The webhook itself is a POST request. When you share a stream and generate a UID credit, echoshare sends a POST request to the destination address, which looks like this:</p>
 <div class="language-json line-numbers-mode" data-highlighter="prismjs" data-ext="json"><pre v-pre><code><span class="line"><span class="token punctuation">{</span></span>
 <span class="line">  <span class="token property">"uid"</span><span class="token operator">:</span> <span class="token string">"{your-uid}"</span><span class="token punctuation">,</span></span>

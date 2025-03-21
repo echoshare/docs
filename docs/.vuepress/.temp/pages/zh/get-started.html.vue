@@ -23,6 +23,7 @@
 <h3 id="✨-增强功能" tabindex="-1"><a class="header-anchor" href="#✨-增强功能"><span>✨ 增强功能</span></a></h3>
 <ul>
 <li>⏳ <strong>本地历史记录</strong>：轻松回顾共享记录，方便快捷。</li>
+<li>💓 <strong>定时心跳检测</strong>：实时检测连接状态。</li>
 <li>🔗 <strong>自定义 webhook</strong>：灵活集成其他系统，实现自动化工作流。</li>
 <li>🔄 <strong>中断后自动拉取</strong>：网络中断也能自动恢复，保证共享的连续性。</li>
 <li>📱 <strong>支持 PWA</strong>：像原生应用一样使用，体验更流畅。</li>
@@ -91,10 +92,13 @@
 <div class="language-json line-numbers-mode" data-highlighter="prismjs" data-ext="json"><pre v-pre><code><span class="line"><span class="token punctuation">{</span></span>
 <span class="line">  <span class="token property">"hook"</span><span class="token operator">:</span> <span class="token string">"on-get"</span><span class="token punctuation">,</span></span>
 <span class="line">  <span class="token property">"action"</span><span class="token operator">:</span> <span class="token string">"receive"</span><span class="token punctuation">,</span></span>
-<span class="line">  <span class="token property">"timestamp"</span><span class="token operator">:</span> <span class="token string">"{current-timestamp}"</span></span>
+<span class="line">  <span class="token property">"timestamp"</span><span class="token operator">:</span> <span class="token string">"{current-timestamp}"</span><span class="token punctuation">,</span></span>
+<span class="line">  <span class="token property">"custom"</span><span class="token operator">:</span> <span class="token punctuation">{</span></span>
+<span class="line">    <span class="token property">"your-custom-data"</span><span class="token operator">:</span> <span class="token string">"{your-custom-data}"</span></span>
+<span class="line">  <span class="token punctuation">}</span></span>
 <span class="line"><span class="token punctuation">}</span></span>
 <span class="line"></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="推送-uid-的-webhook" tabindex="-1"><a class="header-anchor" href="#推送-uid-的-webhook"><span>推送 UID 的 webhook</span></a></h3>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="推送-uid-的-webhook" tabindex="-1"><a class="header-anchor" href="#推送-uid-的-webhook"><span>推送 UID 的 webhook</span></a></h3>
 <p>该 webhook 本身是一个 POST 请求，当您分享媒体流并且生成 UID 功后，echoshare 会向目标地址发送 POST 请求，内容如下：</p>
 <div class="language-json line-numbers-mode" data-highlighter="prismjs" data-ext="json"><pre v-pre><code><span class="line"><span class="token punctuation">{</span></span>
 <span class="line">  <span class="token property">"uid"</span><span class="token operator">:</span> <span class="token string">"{your-uid}"</span><span class="token punctuation">,</span></span>
