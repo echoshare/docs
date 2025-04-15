@@ -1,6 +1,6 @@
 <template><div><h1 id="quick-start" tabindex="-1"><a class="header-anchor" href="#quick-start"><span>Quick start</span></a></h1>
 <p align="center">
-<img src="https://i.postimg.cc/d0M9TjZW/echoshare-mobile-left.png" width="200" alt="just-logo">
+<img src="https://i.postimg.cc/vBCQ1WZx/echoshare-mobile-left.png" width="200" alt="just-logo">
 </p>
 <p>Echoshare is an out-of-the-box and highly customizable configuration-enabled online media sharing application.</p>
 <p>Based on WebRTC technology, Echoshare provides efficient, low-latency online screen sharing that simultaneously transmits screen shots, camera video streams, microphone audio streams, and system audio to meet diverse remote collaboration needs.</p>

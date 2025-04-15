@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: https://i.postimg.cc/vBCQ1WZx/just-logo.png
+heroImage: https://i.postimg.cc/j2TV1S2q/navlogo.png
 actions:
   - text: Get Started
     link: /get-started

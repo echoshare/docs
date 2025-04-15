@@ -1,6 +1,6 @@
 <template><div><h1 id="快速上手" tabindex="-1"><a class="header-anchor" href="#快速上手"><span>快速上手</span></a></h1>
 <p align="center">
-  <img src="https://i.postimg.cc/d0M9TjZW/echoshare-mobile-left.png" width="200" alt="just-logo">
+  <img src="https://i.postimg.cc/vBCQ1WZx/echoshare-mobile-left.png" width="200" alt="just-logo">
 </p>
 <p>Echoshare 是一款开箱即用且支持高度自定义配置的在线媒体共享应用。</p>
 <p>基于 WebRTC 技术，Echoshare 提供高效、低延迟的在线屏幕共享功能，可同时传输屏幕画面、摄像头视频流、麦克风音频流以及系统音频，全面满足多样化的远程协作需求。</p>

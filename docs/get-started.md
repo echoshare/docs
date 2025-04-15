@@ -1,7 +1,7 @@
 # Quick start
 
 <p align="center">
-<img src="https://i.postimg.cc/d0M9TjZW/echoshare-mobile-left.png" width="200" alt="just-logo">
+<img src="https://i.postimg.cc/vBCQ1WZx/echoshare-mobile-left.png" width="200" alt="just-logo">
 </p>
 
 Echoshare is an out-of-the-box and highly customizable configuration-enabled online media sharing application.

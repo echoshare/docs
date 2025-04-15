@@ -1,7 +1,7 @@
 ---
 home: true
 title: 首页
-heroImage: https://i.postimg.cc/vBCQ1WZx/just-logo.png
+heroImage: https://i.postimg.cc/j2TV1S2q/navlogo.png
 actions:
   - text: 快速上手
     link: /zh/get-started
