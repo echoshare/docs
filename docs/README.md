@@ -29,7 +29,7 @@ features:
   - title: 📱 PWA Support
     details: Use it like a native app for a smoother experience.
   - title: 🌍 Multi-language Support
-    details: Cater to global users with seamless communication across languages.
+    details: For global users with seamless communication across languages.
 
 footer: EchoShare © 2025
 ---
