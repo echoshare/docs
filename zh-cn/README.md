@@ -1,7 +1,7 @@
 # 快速上手
 
 <p align="center">
-  <img src="https://i.postimg.cc/vBCQ1WZx/echoshare-mobile-left.png" width="200" alt="just-logo">
+  <img src="/static/echoshare-mobile-left.png" width="200" alt="just-logo">
 </p>
 
 Echoshare 是一款开箱即用且支持高度自定义配置的在线媒体共享应用。
@@ -12,7 +12,7 @@ Echoshare 是一款开箱即用且支持高度自定义配置的在线媒体共�
 
 1. 为了确保 EchoShare 的正常运行，请确认您的浏览器支持 WebRTC 技术。首次使用时，系统将请求您授予摄像头和麦克风权限。若您拒绝授权，可能导致功能受限。您可以在浏览器的网页权限设置中查看或修改这些权限。
 
-![网页权限](https://i.postimg.cc/5tjjsgYN/image.png)
+![网页权限](../static/config_camera.png)
 
 2. 由于移动端浏览器限制，使用 EchoShare 时，您在手机或平板电脑上仅能共享摄像头和麦克风，屏幕共享功能暂不可用。但接收媒体不受影响。因此，您可以利用 EchoShare 将电脑端的音频传输至移动设备播放，即使电脑本身没有音频输出设备。
 
@@ -68,7 +68,7 @@ npm run build
 
 echoshare 在默认情况下无需任何配置即可使用，但您可以根据需要进行自定义配置，所有的配置项都在 `/~settings` 路由下。
 
-![配置页面](https://i.postimg.cc/ZntKjm64/image.pngg)
+![配置页面](../static/settings.png)
 
 ### 自定义 peer 节点
 
@@ -118,7 +118,7 @@ echoshare 提供了自定义 webhook 的功能，您可以在 `/~webhook` 路由
 
 ### 自定义 data
 
-![自定义 data](https://i.postimg.cc/P5JJXTzr/image.png)
+![自定义 data](../static/payload.png)
 
 echoshare 会在 webhook 中携带以下您在**自定义 data**中填写的内容，方便您在 webhook 中使用。所有的自定义数据都携带在 echoshare 所有请求的 `custom` 属性下。
 
